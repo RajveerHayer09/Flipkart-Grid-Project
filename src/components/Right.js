@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Right() {
-  return (
-    <div>Right</div>
-  )
+function Right({ AIdata, RelData }) {
+    return <div></div>;
 }
 
-export default Right
+export default Right;
