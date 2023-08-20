@@ -36,26 +36,25 @@ function Body() {
                             console.log("here");
                             const url = `http://127.0.0.1:5000/api/photos?query=${text}`;
                             const keywords = `http://127.0.0.1:5000/api/keywords?query=${text}`;
-                            axios
-                                .get(url)
-                                .then((response) =>
-                                    setGenAIData(response.data)
-                                );
-
-                            const rel = { data: [] };
-                            axios.get(keywords).then((response) => {
-                                const list = response.data;
-                                for (const key in data) {
-                                    if (
-                                        key["tags"].some((tag) =>
-                                            list.includes(tag)
-                                        )
-                                    ) {
-                                        rel.data.push(key);
-                                    }
-                                }
+                            axios.get(url).then((response) => {
+                                console.log(response.data);
+                                setGenAIData(response.data);
                             });
-                            setRelatedItems(rel);
+
+                            // const rel = { data: [] };
+                            // axios.get(keywords).then((response) => {
+                            //     const list = response.data;
+                            //     for (const key in data) {
+                            //         if (
+                            //             key["tags"].some((tag) =>
+                            //                 list.includes(tag)
+                            //             )
+                            //         ) {
+                            //             rel.data.push(key);
+                            //         }
+                            //     }
+                            // });
+                            // setRelatedItems(rel);
                         }}
                     >
                         Search

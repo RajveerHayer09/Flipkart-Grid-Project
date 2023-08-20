@@ -5,7 +5,7 @@ function Right({ AIdata, RelData }) {
     return (
         <div>
             <Show data={AIdata}>Generated Images</Show>
-            <Show data={RelData}>Realted Products</Show>
+            {/* <Show data={RelData}>Realted Products</Show> */}
         </div>
     );
 }
