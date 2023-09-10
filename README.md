@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+## Flipkart Grid Project ##
+Idea
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Our project focusses on integrating Generative AI with search to revolutionize the way we search for new products.
+> WiththepowerofGen-AIwecangeneratefashionoutputstotherequirements of the user. These outputs will be more user-centric than ever before.
 
-## Available Scripts
+> Here,theusercanseethe specific type of fashion clothing or product on the kind of body type the user is.
 
-In the project directory, you can run:
+> Using AI to find key words from tags of the products which can also check possible spelling mistakes while typing during prompt.
 
-### `npm start`
+# Use-cases #
+1.Virtual Try-On: Users can visualize products on a similar human as them before purchasing, enhancing confidence in buying clothing, accessories, and beauty items.Thishelpstoremove the conventional idea of product images where only a single model(human) is wearing every kind of product irrespective of the customer.
+2. Personalized Suggestions: AI recommends products based on user input, providing tailored shopping options aligned with preferences also using the history of the prompts.
+3. Trend Exploration: AI-generated content keeps users informed about the latest fashion trends and styles.
+4. Related products : User gets a list of products which are related to the search prompt of the user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ # Solution statement/ Proposed approach #
+Our platform caters to users seeking specific products for purchase. Users simply input the type of product they intend to buy. Notably, our website goes beyond this by providing an immersive experience where users can visualize how the chosen product appears on a person prior to making a purchase. This unique feature, achieved through the collaboration of generative AI technology and real-world product integration, adds a layer of confidence to the shopping process. With the assistance of our advanced AI capabilities, users can expect an enhanced and dynamic shopping journey that offers not only the products they desire but also the opportunity to preview them in real-world contexts.
+Information about the search: It is possible that the user is unaware of the fashion trend and wants to know more about a trend which he searched for. Here user can ask the AI to generate images of the current trends and also generate text which helps the user to gain knowledge about that fashion trend.
 
-### `npm test`
+# Future Scope #
+1. We are in the process of enhancing the contextual information provided by users in their prompts.
+2. Gen-AI models specific to our organization can be used for better image generation and text generation.
+3.Theuseof browsing history to show reccomended products and generated fashion images can be improved.
+4. Number of outfit images can be increased.
+5.The response time can be decreased.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![image](https://github.com/RajveerHayer09/Flipkart-Grid-Project/assets/91181106/093b8d10-8669-4da7-a9a5-642e586464d3)
+Landing page having products 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After typing the prompt on the search bar 
+![image](https://github.com/RajveerHayer09/Flipkart-Grid-Project/assets/91181106/9ae7642f-ae49-4f1f-8e67-e71bafea4bea)
+AI generated images on the left side and products that match the keywords from our search appear on the right side
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# TechStack used: #
+-frontend : javascript ,ReactJs
+-backend : python ,Django
+-openAI Dalle API for image generation
+-openAi API for generative text and keywords searching
