@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the OpenAI API key from an environment variable
-keyy = "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"
+keyy = "**key**"
 openai.api_key = keyy
 
 url = "https://api.openai.com/v1/chat/completions"
