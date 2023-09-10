@@ -36,7 +36,7 @@ AI generated images on the left side and products that match the keywords from o
 
 
 # TechStack used: #
--frontend : javascript ,ReactJs
--backend : python ,Django
--openAI Dalle API for image generation
--openAi API for generative text and keywords searching
+- frontend : javascript ,ReactJs
+- backend : python ,Django
+- openAI Dalle API for image generation
+- openAi API for generative text and keywords searching
